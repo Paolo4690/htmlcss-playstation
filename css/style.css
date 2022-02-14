@@ -75,3 +75,52 @@ nav .lens {
 .section_2 .card:hover img {
     box-shadow: 0px 20px 14px 0px rgb(46 46 46 / 27%);
 }
+
+/*  SECTION 3 *//* SECOND SECTION 3 *//* SECOND SECTION 3 *//* SECOND SECTION 3 */
+.section_3 {
+    margin-top: 30px;
+}
+
+.section_3 h6.title {
+color: var(--play);
+}
+
+.color_btn {
+    background-color: #2d64e6;
+    color: #fff;
+}
+
+.color_btn:hover {
+    background-color: #1950cf;
+    color: #fff;
+}
+
+.section_3_card .col {
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_3_card .active {
+    opacity: 1;
+}
+
+.section_3_card .col:hover {
+    opacity: 1;
+}
+
+.section_3 .col hr {
+    border: 1px solid var(--play);
+    background: var(--play);
+    opacity: 1;
+}
+
+.section_3 .col hr.disable {
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.section_3_card .col:hover hr.disable {
+    border: 1px solid var(--play);
+    background: var(--play);
+}
