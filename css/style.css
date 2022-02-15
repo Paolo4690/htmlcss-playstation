@@ -314,3 +314,36 @@ color: var(--play);
     vertical-align: 8px;
     font-size: 1.3rem;
 }
+
+/*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 */
+.section_7 {
+    background-color: #bebcbb;
+}
+.section_7 .col:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.plus_logo {
+    width: 60%;
+}
+
+/*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 */
+
+
+/*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 */
+.section_9 {
+    background-color: #161c3b;
+}
+.section_9 .col:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.plus_logo {
+    width: 60%;
+}
