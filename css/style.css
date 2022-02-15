@@ -136,6 +136,28 @@ p {
     background-color: #000;
 }
 
+#GiochiDropDown,
+#HardwareDropDown,
+#ServiziDropDown,
+#NovitaDropDown,
+#AcquistiDropDown,
+#SupportoDropDown,
+#PlaystationDropDown {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .6);
+}
+
+#GiochiDropDown:hover,
+#HardwareDropDown:hover,
+#ServiziDropDown:hover,
+#NovitaDropDown:hover,
+#AcquistiDropDown:hover,
+#SupportoDropDown:hover,
+#PlaystationDropDown:hover {
+    font-weight: 600;
+    color: var(--play);
+}
+
 header .logo_small {
     height: .8rem;
 }    
@@ -239,12 +261,12 @@ ul.list-inline .list-inline-item::before {
 /* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  */
 
 /*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 */
-.hero_1 {
+#hero_1 {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 250px ;
 }
 
-.hero_1 img {
+#hero_1 img {
     width: 60%;
 }
 
@@ -258,7 +280,7 @@ ul.list-inline .list-inline-item::before {
     padding: .15rem;
 }
 
-.section_2 .card img {
+#section_2 .card img {
     transition: all .5s;
     box-shadow: none;
 }
@@ -271,21 +293,21 @@ ul.list-inline .list-inline-item::before {
     border-radius: 1rem;
 }
 
-.section_2 .card:hover {
+#section_2 .card:hover {
     cursor: pointer;
     transform: translateY(-15px);
 }
 
-.section_2 .card:hover img {
+#section_2 .card:hover img {
     box-shadow: 0px 20px 14px 0px rgb(46 46 46 / 27%);
 }
 
 /*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 */
-.section_3 {
+#section_3 {
     margin-top: 30px;
 }
 
-.section_3 h6.title {
+#section_3 h6.title {
     color: var(--play);
 }
 
@@ -302,13 +324,13 @@ ul.list-inline .list-inline-item::before {
     opacity: 1;
 }
 
-.section_3 .col hr {
+#section_3 .col hr {
     border: 1px solid var(--play);
     background: var(--play);
     opacity: 1;
 }
 
-.section_3 .col hr.disable {
+#section_3 .col hr.disable {
     border: 1px solid #fff;
     background: transparent;
 }
@@ -319,32 +341,32 @@ ul.list-inline .list-inline-item::before {
 }
 
 /*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 */
-.hero_4 {
+#hero_4 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     padding-top: 110px;
 }
 
-.hero_4 img {
+#hero_4 img {
     width: 60%;
 }
 
 /*  SECTION 5 *//*  SECTION 5 *//*  SECTION 5 *//*  SECTION 5 */
-.section_5 {
+#section_5 {
     background-color: #1f1f1f;
 }
 
-.section_5 img {
+#section_5 img {
     border-radius: 8px;
 } 
 
 /*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 */
-.section_6 h2 span {
+#section_6 h2 span {
     vertical-align: 8px;
     font-size: 1.3rem;
 }
 
 /*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 */
-.section_7 {
+#section_7 {
     background-color: #bebcbb;
 }
 
@@ -356,7 +378,7 @@ ul.list-inline .list-inline-item::before {
 
 
 /*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 */
-.section_9 {
+#section_9 {
     background-color: #161c3b;
 }
 
@@ -365,7 +387,7 @@ ul.list-inline .list-inline-item::before {
 }
 
 /*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL */
-.section_10 .row {
+#section_10 .row {
     max-width: 550px;
 }
 
