@@ -87,7 +87,6 @@ header .logo_small {
     height: .8rem;
 }    
 
-
 li a .img-chevron{
     display: inline-block;
     height: .8em;
@@ -126,6 +125,22 @@ nav .lens {
     height: 1.5rem;
 }
 
+.dropdown-menu {
+    margin: 0;
+    top: -200px; 
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 1s;
+    opacity: 0;
+}    
+
+.dropdown-menu[data-bs-popper] {
+    opacity: 1;
+    top: 100%;
+
+}
+
 .contenitore_img_nav {
     height: 160px;
     width: 160px; 
@@ -162,39 +177,10 @@ ul.list-inline .list-inline-item::before {
     margin-right: .5rem;
 }
 
-
 @media screen and (min-width:992px) {
-
-    /* DROPDOWN-MENU  *//* DROPDOWN-MENU  *//* DROPDOWN-MENU  */
     .dropdown-menu {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: -200px;
-        right: 0;
-        z-index: -1;
-        transition: all 1s;
-        opacity: 0;
-        padding: .5rem 0;
-        font-size: 1rem;
-        list-style: none;
-        background-clip: padding-box;
-        border: 0;
-        border-radius: 0;
-        border-bottom-left-radius: .3rem;
-        border-bottom-right-radius: .3rem;
-        box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 50%);
+        box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 50%);
     }
-    
-    .dropdown-menu[data-bs-popper] {
-        top: 75px;
-        margin: 0;
-        opacity: 1;
-        z-index: -1;
-    } 
-
-
-    /* DROPDOWN-MENU  *//* DROPDOWN-MENU  *//* DROPDOWN-MENU  */
 }
 
 /* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  */
@@ -346,4 +332,50 @@ color: var(--play);
 
 .plus_logo {
     width: 60%;
+}
+
+/*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL */
+
+
+/*  SECTION FOOTER *//*  SECTION FOOTER *//*  SECTION FOOTER *//*  SECTION FOOTER */
+footer {
+    background-color: #00439c;
+    font-size: .8rem;
+}
+
+footer img.lenguage {
+    width: 18px;
+}
+
+footer .col.link_footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img.sie {
+    width: 130px;
+}
+
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    font-size: .8rem;
 }
