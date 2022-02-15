@@ -162,38 +162,24 @@ header .logo_small {
     height: .8rem;
 }    
 
-li a .img-chevron{
-    display: inline-block;
-    height: .8em;
-    padding-left: .2em;
-}
-
-.nav-link img.img-chevron:last-child {
-    display: none;
+.nav-link svg {
+    width: 14px;
     transform: rotate(0deg);
     transition: transform 1s, display 1s;
 }
 
-.nav-link:hover img.img-chevron:first-child {
-    display: none;
-}
-
-.nav-link:hover img.img-chevron:last-child {
-    display: inline !important;
-}
-
-.nav-link:focus img.img-chevron:last-child{
-    display: inline !important;
+.nav-link:focus svg {
     transform: rotate(-180deg);
-} 
-
-.nav-link:focus img.img-chevron{
-    display: none;
 }
 
-nav .color_link:hover,
-nav .color_link:focus {
-    color: var(--play);
+svg path {
+    fill:#999;
+    transition: transform 1s, display 1s;
+}
+
+.nav-link:focus svg path,
+.nav-link:hover svg path {
+    fill: #0070d1;
 }
 
 nav .lens {
@@ -324,13 +310,13 @@ ul.list-inline .list-inline-item::before {
     opacity: 1;
 }
 
-#section_3 .col hr {
+.section_3_card .col hr {
     border: 1px solid var(--play);
     background: var(--play);
     opacity: 1;
 }
 
-#section_3 .col hr.disable {
+.section_3_card .col hr.disable {
     border: 1px solid #fff;
     background: transparent;
 }
