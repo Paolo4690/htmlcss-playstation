@@ -241,7 +241,6 @@ ul.list-inline .list-inline-item::before {
 /*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 */
 .hero_1 {
     background-image: url(../img/jumbo-bg.png);
-    margin-top: 116px;
     padding-top: 250px ;
 }
 
