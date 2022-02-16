@@ -332,8 +332,13 @@ ul.list-inline .list-inline-item::before {
 }
 
 #section_5 .col:hover {
-    transform: scale(1.05);
     filter: blur(.5px);
+}
+
+@media screen and (min-width: 576px) {
+    #section_5 .col:hover {
+        transform: scale(1.05);
+    }
 }
 
 /*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 */
@@ -362,10 +367,15 @@ ul.list-inline .list-inline-item::before {
 }
 
 #section_8 .col img:hover{
-    transform: scale(1.05);
     filter: blur(.5px);
     cursor: pointer;
     box-shadow: 0 0 13px 3px rgb(0 0 0 / 40%);
+}
+
+@media screen and (min-width: 576px) {
+    #section_8 .col img:hover{
+        transform: scale(1.05);
+    }
 }
 
 /*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 */
