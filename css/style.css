@@ -27,44 +27,26 @@ p {
 }
 
 /* BOTTONI *//* BOTTONI *//* BOTTONI *//* BOTTONI *//* BOTTONI */
-.btn_hover_white,
-.btn_hover_dark {
-    border: 2px solid transparent;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 98%;
-    height: 95%;
-    transition: border .2s;
-}
-
-.btn_hov:hover .btn_hover_white {
-    border: 2px solid #f8f9fa;
-    background-color: rgba(0, 0, 0, .1);
-}
-
-.btn_hov:hover .btn_hover_dark {
-    border: 2px solid var(--btn_dark);
-    background-color: rgba(0, 0, 0, .1);
-}
-
 .btn_white {
     background-color: rgba(255, 255, 255, 1);
     color: black;
+    border-width: 2px;
 }
 
 .btn_white:hover {
     background-color: rgba(255, 255, 255, 0.7);
     color: black;
+    box-shadow: inset 0px 0px 0px 2px #fff;
 }
 
 /* BOTTONE ROSSO *//* BOTTONE ROSSO *//* BOTTONE ROSSO */
 .btn-danger {
+    border-width: 2px;
     background-color: var(--btn_red);
 }
 
 .btn-danger:hover {
+    box-shadow: inset 0px 0px 0px 2px var(--btn_dark);
     background-color: var(--btn_red);
     border-color: var(--btn_red);
 }
@@ -80,31 +62,22 @@ p {
 }
 
 /* BOTTONE DARK *//* BOTTONE DARK *//* BOTTONE DARK */
-.btn-dark {
-    background-color: var(--btn_dark);
+ .btn-dark {
+    border-width: 2px;
 }
 
 .btn-dark:hover {
-    background-color: var(--btn_dark);
-    border-color: var(--btn_dark);
-}
-
-.btn-dark:active {
-    background-color: var(--btn_dark);
-    border-color: var(--btn_dark);
-}
-
-.btn-dark:focus {
-    background-color: var(--btn_dark);
-    border-color: var(--btn_dark);
+    box-shadow: inset 0px 0px 0px 2px #fff;
 }
 
 /* BOTTONE BLUE *//* BOTTONE BLUE *//* BOTTONE BLUE */
 .btn-primary {
     background-color: var(--btn_blue);
+    border-width: 2px;
 }
 
 .btn-primary:hover {
+    box-shadow: inset 0px 0px 0px 2px #fff;
     background-color: var(--btn_blue);
     border-color: var(--btn_blue);
 }
@@ -123,9 +96,10 @@ p {
 .btn_trasparent {
     background-color: rgba(255, 255, 255, 0.6);
     color: var(--play);
+    border-width: 2px;
 }
-
 .btn_trasparent:hover {
+    box-shadow: inset 0px 0px 0px 2px #fff;
     background-color: rgba(255, 255, 255, 0.4);
     color: var(--play);
 }
@@ -174,7 +148,7 @@ header .logo_small {
 
 svg path {
     fill:#999;
-    transition: transform 1s, display 1s;
+    transition: fill 1s, display 1s;
 }
 
 .nav-link:focus svg path,
@@ -269,6 +243,11 @@ ul.list-inline .list-inline-item::before {
 #section_2 .card img {
     transition: all .5s;
     box-shadow: none;
+    opacity: .7;
+}
+
+#section_2 img.active {
+    opacity: 1;
 }
 
 .border_card_active {
@@ -286,6 +265,7 @@ ul.list-inline .list-inline-item::before {
 
 #section_2 .card:hover img {
     box-shadow: 0px 20px 14px 0px rgb(46 46 46 / 27%);
+    opacity: 1;
 }
 
 /*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 */
@@ -342,13 +322,27 @@ ul.list-inline .list-inline-item::before {
 }
 
 #section_5 img {
-    border-radius: 8px;
+    border-radius: 8px;   
 } 
+
+#section_5 .col {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .3s;
+}
+
+#section_5 .col:hover {
+    transform: scale(1.05);
+}
 
 /*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 */
 #section_6 h2 span {
     vertical-align: 8px;
     font-size: 1.3rem;
+}
+
+#section_6 .col img {
+    cursor: pointer;
 }
 
 /*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 */
@@ -361,7 +355,17 @@ ul.list-inline .list-inline-item::before {
 }
 
 /*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 */
+#section_8 .col img {
+    transition: all .3s;
+    border-radius: 8px; 
+}
 
+#section_8 .col img:hover{
+    transform: scale(1.05);
+    filter: blur(.5px);
+    cursor: pointer;
+    box-shadow: 0 0 13px 3px rgb(0 0 0 / 40%);
+}
 
 /*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 */
 #section_9 {
@@ -375,6 +379,18 @@ ul.list-inline .list-inline-item::before {
 /*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL */
 #section_10 .row {
     max-width: 550px;
+}
+
+#section_10 img {
+    border-radius: 8px; 
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .3s;
+}
+
+#section_10 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 13px 3px rgb(0 0 0 / 40%);
 }
 
 /*  SECTION FOOTER *//*  SECTION FOOTER *//*  SECTION FOOTER *//*  SECTION FOOTER */
