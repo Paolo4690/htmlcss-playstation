@@ -290,7 +290,7 @@ ul.list-inline .list-inline-item::before {
     opacity: 1;
 }
 
-#section_3 .btn {
+.section_3_card .btn {
     box-shadow: none;
 }
 
