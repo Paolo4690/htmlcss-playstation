@@ -282,6 +282,11 @@ ul.list-inline .list-inline-item::before {
     cursor: pointer;
 }
 
+.section_3_card span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .section_3_card .active {
     opacity: 1;
 }
