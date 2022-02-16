@@ -280,6 +280,7 @@ ul.list-inline .list-inline-item::before {
 .section_3_card .col {
     opacity: .6;
     cursor: pointer;
+    transition: opacity .4s;
 }
 
 .section_3_card span {
