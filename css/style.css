@@ -310,11 +310,17 @@ ul.list-inline .list-inline-item::before {
     background: var(--play);
 }
 
+.carousel-fade .active.carousel-item-end,
+.carousel-fade .active.carousel-item-start {
+    transition: opacity .5s .2s
+}
+
 @media screen and (min-width: 768px) {
     .carousel-inner {
         width: 50%;
     }
 }
+
 /*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 */
 #hero_4 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
