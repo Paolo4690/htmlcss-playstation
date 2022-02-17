@@ -142,17 +142,18 @@ header .logo_small {
     transition: transform 1s, display 1s;
 }
 
-.show:focus svg {
+a.show:focus svg {
     transform: rotate(-180deg);
 }
 
-svg path {
+a svg path {
     fill:#999;
-    transition: fill 1s, display 1s;
+    transition: fill .5s, display .5s;
 }
 
-.show:focus svg path,
-.show:hover svg path {
+a.show:focus svg path,
+a.show:hover svg path,
+.nav-link:hover svg path {
     fill: #0070d1;
 }
 
