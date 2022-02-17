@@ -15,6 +15,16 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
 p {
     font-size: 1.1rem;
 }
@@ -460,4 +470,57 @@ footer a:hover {
 
 footer p {
     font-size: .8rem;
+}
+
+
+
+
+/* PAGINA PS NOW *//* PAGINA PS NOW *//* PAGINA PS NOW *//* PAGINA PS NOW */
+/* NAV PLUS *//* NAV PLUS *//* NAV PLUS *//* NAV PLUS */
+#nav-now  {
+    top: 76px;
+    font-weight: 500;
+    z-index: 0;
+}
+
+#nav-now li a {
+    display: inline-block;
+    color: #000;
+}
+
+#nav-now li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#nav-now li.active {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* HERO PLUS1 *//* HERO PLUS1 *//* HERO PLUS1 *//* HERO PLUS1 */
+#hero_now_1 {
+    background: linear-gradient(to bottom right, #081331, #2d3870);
+}
+
+#hero_now_1 p,
+#on_demand p,
+#new_game p {
+    font-size: 1rem;
+}
+
+p.opac {
+    color: rgba(255, 255, 255, .6);
+    max-width: 720px;
+}
+
+/* ON DEMAND  */  /* ON DEMAND  */  /* ON DEMAND  */
+#on_demand {
+    padding-top: 50px;
+    background: linear-gradient(#01081b, #243e81, #01081b);
+}
+
+
+/* NEW GAME  */  /* NEW GAME  */  /* NEW GAME  */
+#new_game {
+  padding-top: 50px;
+  background: linear-gradient(#01081b, #243e81, #01081b);
 }
