@@ -221,17 +221,17 @@ ul.list-inline .list-inline-item::before {
 
 /* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  *//* MAIN  */
 
-/*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 *//*  SECTION 1 */
-#hero_1 {
+/*  HERO GAME1 *//*  HERO GAME1 *//*  HERO GAME1 *//*  HERO GAME1 */
+#hero_game_1 {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 250px ;
 }
 
-#hero_1 img {
+#hero_game_1 img {
     width: 60%;
 }
 
-/*  SECTION 2 *//*  SECTION 2 *//*  SECTION 2 *//*  SECTION 2 */
+/*  CARD HERO GAME1 *//*  CARD HERO GAME1 *//*  CARD HERO GAME1 */
 .card { 
     transition: transform .5s;
     border: 2px solid transparent;
@@ -241,13 +241,13 @@ ul.list-inline .list-inline-item::before {
     padding: .15rem;
 }
 
-#section_2 .card img {
+#card_hero_game_1 .card img {
     transition: all .5s;
     box-shadow: none;
     opacity: .7;
 }
 
-#section_2 img.active {
+#card_hero_game_1 img.active {
     opacity: 1;
 }
 
@@ -259,22 +259,22 @@ ul.list-inline .list-inline-item::before {
     border-radius: 1rem;
 }
 
-#section_2 .card:hover {
+#card_hero_game_1 .card:hover {
     cursor: pointer;
     transform: translateY(-15px);
 }
 
-#section_2 .card:hover img {
+#card_hero_game_1 .card:hover img {
     box-shadow: 0px 20px 14px 0px rgb(46 46 46 / 27%);
     opacity: 1;
 }
 
-/*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 *//*  SECTION 3 */
-#section_3 {
+/*  ARTICLE PS *//*  ARTICLE PS *//*  ARTICLE PS *//*  ARTICLE PS */
+#article_ps {
     margin-top: 30px;
 }
 
-#section_3 h6.title {
+#article_ps h6.title {
     color: var(--play);
 }
 
@@ -328,53 +328,53 @@ ul.list-inline .list-inline-item::before {
     }
 }
 
-/*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 *//*  SECTION 4 */
-#hero_4 {
+/*  HERO GAME2 *//*  HERO GAME2 *//*  HERO GAME2 */
+#hero_game_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     padding-top: 110px;
 }
 
-#hero_4 img {
+#hero_game_2 img {
     width: 60%;
 }
 
-/*  SECTION 5 *//*  SECTION 5 *//*  SECTION 5 *//*  SECTION 5 */
-#section_5 {
+/*  CARD GAME2 *//*  CARD GAME2 *//*  CARD GAME2 */
+#card_game_2 {
     background-color: #1f1f1f;
 }
 
-#section_5 img {
+#card_game_2 img {
     border-radius: 8px;   
 } 
 
-#section_5 .col {
+#card_game_2 .col {
     cursor: pointer;
     transform: scale(1);
     transition: all .3s;
 }
 
-#section_5 .col:hover {
+#card_game_2 .col:hover {
     filter: blur(.5px);
 }
 
 @media screen and (min-width: 576px) {
-    #section_5 .col:hover {
+    #card_game_2 .col:hover {
         transform: scale(1.05);
     }
 }
 
-/*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 *//*  SECTION 6 */
-#section_6 h2 span {
+/*  ARTICLE PS 2 *//*  ARTICLE PS 2 *//*  ARTICLE PS 2 */
+#article_ps_2 h2 span {
     vertical-align: 8px;
     font-size: 1.3rem;
 }
 
-#section_6 .col img {
+#article_ps_2 .col img {
     cursor: pointer;
 }
 
-/*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 *//*  SECTION 7 */
-#section_7 {
+/*  PS PLUS *//*  PS PLUS *//*  PS PLUS *//*  PS PLUS */
+#ps_plus {
     background-color: #bebcbb;
 }
 
@@ -382,26 +382,26 @@ ul.list-inline .list-inline-item::before {
     width: 60%;
 }
 
-/*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 *//*  SECTION 8 */
-#section_8 .col img {
+/*  SCONTI *//*  SCONTI *//*  SCONTI *//*  SCONTI */
+#sconti .col img {
     transition: all .3s;
     border-radius: 8px; 
 }
 
-#section_8 .col img:hover{
+#sconti .col img:hover{
     filter: blur(.5px);
     cursor: pointer;
     box-shadow: 0 0 13px 3px rgb(0 0 0 / 40%);
 }
 
 @media screen and (min-width: 576px) {
-    #section_8 .col img:hover{
+    #sconti .col img:hover{
         transform: scale(1.05);
     }
 }
 
-/*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 *//*  SECTION 9 */
-#section_9 {
+/*  PS NOW *//*  PS NOW *//*  PS NOW *//*  PS NOW */
+#ps_now {
     background-color: #161c3b;
 }
 
@@ -409,19 +409,19 @@ ul.list-inline .list-inline-item::before {
     width: 60%;
 }
 
-/*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL *//*  SECTION SOCIAL */
-#section_10 .row {
+/*   SOCIAL *//*   SOCIAL *//*   SOCIAL *//*   SOCIAL */
+#social .row {
     max-width: 550px;
 }
 
-#section_10 img {
+#social img {
     border-radius: 8px; 
     cursor: pointer;
     transform: scale(1);
     transition: transform .3s;
 }
 
-#section_10 img:hover {
+#social img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 13px 3px rgb(0 0 0 / 40%);
 }
